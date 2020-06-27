@@ -24,13 +24,19 @@ print("The maximum element is:", maxNum)
 lists.sumFunc(createList)
 print("The sum of all elements of the list is: ", sum)   
 
+
 #Using string functions
 #Taking input from the user
 str = input("\nEnter the Word: ")
-strings.stringFunc()
-
-print("Number of vowels are:", vowels)
+#To Find the middle character
+strings.midChar(str)
+#To find the vowel in the string
+strings.calVowels(str)
+print("Number of vowels vowels are:",)
+#To calculate number of letters in the string 
+strings.calLetters(str)
 print("The number of letters are: ", letters)
+
 
 #Using Operator functions
 #Taking input from the user
