@@ -26,5 +26,5 @@ def stringFunc():
         letters += 1
     print("The number of letters are: ", letters)
 
-stringFunc()
+
 
