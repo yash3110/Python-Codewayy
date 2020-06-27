@@ -4,14 +4,14 @@
 #Program to find the middle char, count the number of vowels, calculate the legnth and the number of words in a string
     
 #For Middle Char
-def midChar()
+def midChar():
     if(len(str) % 2 == 0):
         print(str[(int(len(str) / 2) - 1 )] + " " +"and" + " " + str[(int(len(str) / 2))])
     else:
         print(str[(int(len(str)/2))])
 
 #To find the vowel in the string
-def calVowel()
+def calVowel():
     vowels=0
     for char in str:
         if(char=='a' or char=='e' or char=='i' or char=='o' or char=='u'):
