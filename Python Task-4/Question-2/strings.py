@@ -18,7 +18,7 @@ def calVowel():
             vowels = vowels + 1
            
 #To calculate number of letters in the string 
-def calLetters()
+def calLetters():
     letters = 0    
     for i in str: 
         letters += 1
