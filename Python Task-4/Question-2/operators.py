@@ -3,10 +3,6 @@
 
 #Use of all logical operators
 
-a=int(input("\nEnter the first number: "))
-b=int(input("Enter the second number: "))
-c=int(input("Enter the third number: "))
-
 #And operator
 def andOper(a,b,c):
     if a == b and b==c and a ==c:
@@ -20,7 +16,6 @@ def andOper(a,b,c):
     else:
         print(" \n The three numbers are not equal ")
 
-andOper(a,b,c)
 
 #Or operator       
 def orOper(a,b,c):
@@ -39,7 +34,6 @@ def orOper(a,b,c):
     else:
         print("\na is the largest number")
 
-orOper(a,b,c)
 
 #Not operator        
 def notOper(a): 
@@ -48,4 +42,4 @@ def notOper(a):
     else:
         print(" \n a is a positive number ")
 
-notOper(a)
+
