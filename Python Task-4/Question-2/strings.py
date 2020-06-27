@@ -22,4 +22,3 @@ def calLetters()
     letters = 0    
     for i in str: 
         letters += 1
-
