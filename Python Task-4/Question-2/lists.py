@@ -6,7 +6,6 @@ def squarefunc():
     z=int(input("Enter the number, of which you want to calculate the square: "))
     sq = z*z
     print("\nThe square of the number is: ", sq)
-squarefunc()
 
 #Initializing the list
 createList = []
@@ -35,7 +34,6 @@ def minAndMaxFunc():
         if(maxNum < i):
             maxNum = i
     print("The maximum element is:", maxNum)
-minAndMaxFunc()
     
 #Function for finding the sum of all elements in the list
 def sumfunc():
@@ -43,7 +41,6 @@ def sumfunc():
     for x in range(0, l):
         sum = sum + createList[x]
     print("The sum of all elements of the list is: ", sum)
-sumfunc()
     
     
 
